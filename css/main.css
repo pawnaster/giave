@@ -1,0 +1,294 @@
+/* CSS Document */
+.header{
+	width: 100%;
+/*	padding: 16px 0;*/
+	position: absolute;
+	background: rgba(0,0,0,0.37)
+}
+.header-1{
+	width: 100%;
+	padding: 16px 0;
+	position: absolute;
+}
+.logo a{
+	font-size: 36px;
+	text-decoration: none;
+	color: white;
+}
+.lg{
+/*	width: 100%;*/
+	height: 70px;
+	overflow: hidden;
+}
+.nav ul{
+	list-style: none
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a{
+	text-decoration: none;
+	color: white;
+}
+.nav li a:hover{
+	opacity: 0.8
+}
+.nav-1 ul{
+	list-style: none
+}
+.nav-1 li{
+	margin: 0 16px;
+}
+.nav-1 li a{
+	text-decoration: none;
+	color: black;
+}
+.nav li a:hover{
+	opacity: 0.8
+}
+/*Header*/
+.banner-01{
+	width: 100%;
+	height: 100vh;
+	background: url("../img/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 20px;
+	background-attachment: fixed;
+/*	opacity: .8;*/
+	position: relative;
+	margin-top: 50px
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background: url("../img/cham-soc-cho-corgi-sinh-san.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -130px;
+	background-attachment: fixed;
+	padding: 350px 0;
+	color: white;
+	
+}
+.banner h1{
+	font-weight: 400;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+.banner p{
+	margin: 8px 0 40px;
+}
+
+/*banner*/
+.service{
+	padding: 80px 0;
+}
+.service h1{
+	margin-bottom: 40px;
+}
+.feature{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;	
+	position: relative;
+	transition: 1s
+}
+.feature img{
+	position: relative;
+	left: -50px;
+	height: 100%;
+}
+.box:hover .feature{
+	transform: scale(1.1);
+	transition: 1.5s
+}
+.content{
+	padding: 30px;
+}
+.content a{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+}
+.content:hover{
+	opacity: .5
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden
+}	
+.box-1{
+	display: flex;
+	height: 500px;
+	overflow: hidden;
+	
+}
+.box-01{
+	display: flex;
+	height: 500px;
+	width: 100%
+}
+.hinh1{
+/*	width: 100%;*/
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	transition: 1s
+}
+.hinh1 img{
+	position: absolute;
+	left: -80px;
+/*	right: -100px;*/
+	height: 100%;
+}
+.box-1:hover .hinh1{
+	transform: scale(.9);
+	transition: 1.5s
+}
+.box-2{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.chuyen-anh{
+	width: 0;
+	height: 500px;
+	color: white;
+	background: rgba(0,0,0,0.33);
+/*
+	opacity: 1;
+	visibility: hidden;
+*/
+	transition-duration: 1.5s;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px
+}
+.box-2 a{
+	text-decoration: none
+}
+.chuyen-anh-2{
+	width: 100%;
+	height: 0px;
+	color: white;
+	background: rgba(0,0,0,0.33);
+/*
+	opacity: 1;
+	visibility: hidden;
+*/
+	transition-duration: 1.5s;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	text-align: center
+}
+.chuyen-anh-3{
+	width: 100%;
+	height: 0px;
+	color: white;
+	background: rgba(0,0,0,0.33);
+/*
+	opacity: 1;
+	visibility: hidden;
+*/
+	transition-duration: 1.5s;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+/*	top: 0;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	text-align: center
+}
+.box-002 a{
+	text-decoration: none
+}
+.box-2 img{
+	position: absolute;
+	height: 100%;
+	left: -100px
+}
+.box-02{
+	width: 100%;
+	height: 500px;
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap
+}
+.box-002{
+	width: 100%;
+	height: 240px;
+	overflow: hidden;
+	position: relative
+}
+.box-002 img{
+	height: 150%;
+	position: absolute;
+	bottom: 0;
+	top: -20px
+}
+
+.section{
+	padding: 20px 0
+}
+.banner-1{
+	height: 500px;
+	width: 100%
+}
+.text{
+	padding: 0 0 0 30px;
+}
+.text a{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 700
+}
+.text-1{
+	padding: 0 30px 0 0
+}
+.text-1 a{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+	font-weight: 700
+}
+.text:hover a, .text-1:hover a{
+	opacity: .8
+}
+.section-1{
+	padding: 50px 0
+}
+.box-2:hover .chuyen-anh{
+/*	height: 100%;*/
+	width: 100%;
+/*
+	opacity: 0;
+	visibility: visible
+*/
+}
+.box-002:hover .chuyen-anh-2{
+	height: 100%
+}
+.box-002:hover .chuyen-anh-3{
+	height: 100%
+}
